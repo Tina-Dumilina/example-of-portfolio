@@ -1,0 +1,44 @@
+.socials {
+  padding-left: 0;
+  list-style: none;
+}
+
+.socials__item {
+  display: inline-block;
+}
+
+.socials__link {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+}
+
+.socials__link_github {
+  background: url('../../images/icon-github.svg') no-repeat center;
+}
+
+.socials__link_twitter {
+  background: url('../../images/icon-twitter.svg') no-repeat center;
+}
+
+.socials__link_instagram {
+  background: url('../../images/icon-instagram.svg') no-repeat center;
+}
+
+.socials__link_facebook {
+  background: url('../../images/icon-facebook.svg') no-repeat center;
+}
+
+@media (min-width: 1025px) {
+  .socials__link:hover,
+  .socials__link:active {
+    filter: brightness(50%);
+  }
+}
+
+@media (max-width: 320px) {
+  .socials__link {
+    width: 14px;
+    height: 14px;
+  }
+}

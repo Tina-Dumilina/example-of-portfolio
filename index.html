@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Портфолио</title>
+  <link rel="stylesheet" href="vendor/normalize.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="page">
+
+    <!-- Лого и socials  -->
+    <header class="header">
+      <div class="container header__container">
+        <img src="images/logo.svg" alt="Логотип Discord" class="header__logo">
+        <ul class="header__socials socials">
+          <li class="header__socials-item socials__item">
+            <a class="socials__link socials__link_github" href="#" aria-label="Я на Гитхаб"></a>
+          </li>
+          <li class="header__socials-item socials__item">
+            <a class="socials__link socials__link_twitter" href="#" aria-label="Я в Твиттере"></a>
+          </li>
+          <li class="header__socials-item socials__item">
+            <a class="socials__link socials__link_instagram" href="#" aria-label="Я во Инстаграм"></a>
+          </li>
+          <li class="header__socials-item socials__item">
+            <a class="socials__link socials__link_facebook" href="#" aria-label="Я на Facebook"></a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Обо мне -->
+    <section class="hero">
+      <div class="container hero__container">
+        <div class="hero__info">
+          <p class="hero__subtitle">Фрилансер</p>
+          <h1 class="hero__title">Петр Федоров</h1>
+          <p class="hero__text">
+            Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и верстку небольшого сайта
+            или интернет-магазина
+          </p>
+          <a href="#form" class="button hero__button">Бесплатная консультация</a>
+        </div>
+        <img src="images/avatar.jpg" alt="Молодая темноволосая девушка" class="hero__image">
+      </div>
+    </section>
+
+    <!-- Характеристики -->
+    <section class="features">
+      <div class="container">
+        <h2 class="features__title">
+          Со мной удобно работать
+        </h2>
+        <div class="features__cards">
+          <article class="card">
+            <img src="images/feature-offer.svg" alt="Иконка договора" class="card__image">
+            <h3 class="card__title">
+              По договору
+            </h3>
+            <p class="card__text">
+              Предоставлю все документы для бухгалтерии: договоры, счета и акты. Работаю как ИП без НДС.
+            </p>
+          </article>
+
+          <article class="card">
+            <img src="images/feature-deadline.svg" alt="Иконка календаря" class="card__image">
+            <h3 class="card__title">
+              Точно в срок
+            </h3>
+            <p class="card__text">
+              В договоре прописана моя ответственность за срок проекта. Если просрочу — плачу неустойку.
+            </p>
+          </article>
+
+          <article class="card">
+            <img src="images/feature-price.svg" alt="Иконка рукопожатия" class="card__image">
+            <h3 class="card__title">
+              Ценник под вас
+            </h3>
+            <p class="card__text">
+              Если у вас нетиповой проект, сделаю рассчет цены за работу и объясню, как складывается цена.
+            </p>
+          </article>
+
+          <article class="card">
+            <img src="images/feature-steps.svg" alt="Иконка бумаги с печатью и ручки" class="card__image">
+            <h3 class="card__title">
+              Премежуточные итоги
+            </h3>
+            <p class="card__text">
+              Показываю работу поэтапно, а не  в последий момент перед  крайним сроком.
+            </p>
+          </article>
+
+          <article class="card">
+            <img src="images/feature-storage.svg" alt="Иконка облачного сервиса" class="card__image">
+            <h3 class="card__title">
+              Хостинг и домен
+            </h3>
+            <p class="card__text">
+              Если мы договорились о цене проекта, в неё входит всё: домен и хостинг на год + SSL сертификат.
+            </p>
+          </article>
+
+          <article class="card">
+            <img src="images/feature-conversation.svg" alt="Иконка с несколькими людьми" class="card__image">
+            <h3 class="card__title">
+              Не брошу после сдачи
+            </h3>
+            <p class="card__text">
+              Научу вас или вашего сотрудника пользоваться сайтом, запишу видео-инструкции.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Контакты -->
+    <footer class="contacts">
+      <div class="container">
+        <h2 class="contacts__title">
+          Свяжитесь со мной
+        </h2>
+
+        <div class="contacts__content">
+
+          <!-- Форма -->
+          <form action="https://echo.htmlacademy.ru" method="POST" class="form" id="form">
+            <div class="form__text">
+              Можете просто оставить заявку, я позвоню вам сегодня
+            </div>
+            <input type="text" name="name" class="form__input form__input_name" placeholder="Ваше имя"
+              required>
+            <input type="tel" name="phone" class="form__input form__input_tel" placeholder="Ваш телефон" required>
+            <button type="submit" class="button form__button">Бесплатная консультация</button>
+          </form>
+
+          <!-- Контактная информация -->
+          <div class="contacts__info">
+            <ul class="contacts__list">
+              <li class="contacts__item">
+                <h3 class="contacts__item-title">Телефон</h3>
+                <a href="tel:+79991234567" class="link contacts__item-link">+7 999 123 45 67</a>
+              </li>
+
+              <li class="contacts__item">
+                <h3 class="contacts__item-title">Почта</h3>
+                <a href="mailto:ivanov@mail.ru" class="link contacts__item-link">ivanov@mail.ru</a>
+              </li>
+
+              <li class="contacts__item">
+                <h3 class="contacts__item-title">Соцсети</h3>
+
+                <ul class="contacts__sublist">
+                  <li class="contacts__sublist-item">
+                    <a href="#" class="link contacts__item-link">t.me/ivanov</a>
+                  </li>
+                  <li class="contacts__sublist-item">
+                    <a href="#" class="link contacts__item-link">vk.me/ivanov</a>
+                  </li>
+                  <li class="contacts__sublist-item">
+                    <a href="#" class="link contacts__item-link">fb.me/ivanov</a>
+                  </li>
+                </ul>
+            </ul>
+
+            <!-- Иконки соцсетей -->
+            <ul class="contacts__socials socials">
+              <li class="contacts__socials-item socials__item">
+                <a class="socials__link socials__link_github" href="#" aria-label="Я на Гитхаб"></a>
+              </li>
+              <li class="contacts__socials-item socials__item">
+                <a class="socials__link socials__link_twitter" href="#" aria-label="Я в Твиттере"></a>
+              </li>
+              <li class="contacts__socials-item socials__item">
+                <a class="socials__link socials__link_instagram" href="#" aria-label="Я во Инстаграм"></a>
+              </li>
+              <li class="contacts__socials-item socials__item">
+                <a class="socials__link socials__link_facebook" href="#" aria-label="Я на Facebook"></a>
+              </li>
+            </ul>
+            </li>
+
+
+            <a href="#" class="link contacts__privacy-policy">
+              Политика конфиденциальности
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
