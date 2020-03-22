@@ -13,11 +13,7 @@
   margin: 0;
 }
 
-.header__socials-item {
-  margin-right: 14px;
-}
-
-.header__socials-item:last-child {
+.header__socials-item:last-of-type {
   margin-right: 0;
 }
 

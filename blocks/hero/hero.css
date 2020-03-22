@@ -43,13 +43,19 @@
   color: #fff;
 }
 
-.hero__image {
+.hero__image-container {
   width: 42%;
   max-width: 389px;
-  height: auto;
   max-height: 389px;
-  border-radius: 50%;
   border: 11px solid #fff;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.hero__image {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -78,7 +84,7 @@
     font-size: 20px;
   }
 
-  .hero__image {
+  .hero__image-container {
     border-width: 7px;
   }
 }
@@ -96,7 +102,7 @@
     text-align: center;
   }
 
-  .hero__image {
+  .hero__image-container {
     margin-bottom: 30px;
     max-width: 228px;
     max-height: 228px;
@@ -118,7 +124,7 @@
     margin-bottom: 15px;
   }
 
-  .hero__image {
+  .hero__image-container {
     max-width: 167px;
     max-height: 167px;
     border-width: 5px;
@@ -144,7 +150,7 @@
     line-height: 20px;
   }
 
-  .hero__image {
+  .hero__image-container {
     max-width: 113px;
     max-height: 113px;
     margin-bottom: 20px;

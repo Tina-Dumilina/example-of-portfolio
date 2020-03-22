@@ -39,7 +39,7 @@
   margin-bottom: 59px;
 }
 
-.contacts__item:last-child {
+.contacts__item:last-of-type {
   margin-bottom: 0;
 }
 
@@ -73,7 +73,7 @@
   margin-right: 50px;
 }
 
-.contacts__sublist-item:last-child {
+.contacts__sublist-item:last-of-type {
   margin-right: 0;
 }
 
@@ -82,11 +82,7 @@
   margin-bottom: 104px;
 }
 
-.contacts__socials-item {
-  margin-right: 18px;
-}
-
-.contacts__socials-item:last-child {
+.contacts__socials-item:last-of-type {
   margin-right: 0;
 }
 

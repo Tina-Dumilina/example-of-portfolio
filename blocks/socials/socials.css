@@ -5,6 +5,7 @@
 
 .socials__item {
   display: inline-block;
+  margin-right: 18px;
 }
 
 .socials__link {

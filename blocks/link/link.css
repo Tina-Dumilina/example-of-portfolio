@@ -1,6 +1,4 @@
-@media (min-width: 1025px) {
-  .link:hover,
-  .link:active {
-    opacity: .5;
-  }
+.link:hover,
+.link:active {
+  opacity: .5;
 }
