@@ -34,7 +34,7 @@
   padding: 26px 20px 26px 55px;
 
   background-color: #f8f8f8;
-  border: none;
+  border-color: transparent;
   box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
   border-radius: 5px;
 }
@@ -58,7 +58,7 @@
 .form__button {
   margin-top: 29px;
   padding: 30px 10px;
-  border-color: transparent;
+  border: none;
 }
 
 @media (max-width: 600px) {
