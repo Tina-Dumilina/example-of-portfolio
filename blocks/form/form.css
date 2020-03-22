@@ -34,7 +34,7 @@
   padding: 26px 20px 26px 55px;
 
   background-color: #f8f8f8;
-  border-color: transparent;
+  border: 2px solid transparent;
   box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
   border-radius: 5px;
 }
@@ -52,7 +52,7 @@
 .form__input:focus,
 .form__input:active {
   outline: none;
-  border-color: #ffbb01;
+  border: 2px solid #ffbb01;
 }
 
 .form__button {
